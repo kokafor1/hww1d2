@@ -1,0 +1,122 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1500px;
+    width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-content: space-evenly;
+}
+
+h1 {
+    text-align: left;
+    color: black;
+}
+
+.fp {
+    display: flex;
+  flex-direction: row-reverse;
+}
+
+form {
+    height: 500px;
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 8px;
+    color: #555;
+    align-self: flex-start;
+    text-align: left;
+}
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Continue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#Create {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    color: black;
+    background-color: #555;
+    align-content: center;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: left;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ img {
+    max-width: 150px;
+    width: 15%;
+ }
+button {
+    background-color: yellow;
+    color: black;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.Account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background-color: lime;
+}
+
+.forgot-password {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer {
+    border-top: 2px solid black;
+    padding-top: 10px;
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+}
+
+.footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color:black;
+}
